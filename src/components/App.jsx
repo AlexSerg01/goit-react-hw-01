@@ -1,4 +1,3 @@
-// src/App.jsx
 import Profile from "./Profile";
 import FriendList from "./FriendList";
 import TransactionHistory from "./TransactionHistory";
