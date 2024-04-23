@@ -1,53 +1,65 @@
-.profile {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.ProfileContainer {
+  width: 304px;
+  margin: 48px auto;
   border: 2px solid black;
-  border-radius: 5%;
-  max-width: 300px;
-  margin: 20px auto;
-  padding-top: 10px;
-  flex-direction: column;
-  align-items: center;
+  border-radius: 24px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
   text-align: center;
 }
 
-.image {
-  width: 200px;
-  height: 200px;
+.ProfileHead {
+  margin: 0;
+  border-radius: 24px 24px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 18px;
+}
+
+.ProfileImage {
+  width: 120px;
+  height: 120px;
   background-color: rgba(46, 38, 38, 0.955);
   border-radius: 50%;
 }
 
-.name {
+.ProfileName {
   font-weight: 900;
   font-size: 24px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.tag {
+.ProfileTag {
   color: rgba(35, 35, 35, 0.666);
 }
 
-.location {
+.ProfileLocation {
   color: rgba(35, 35, 35, 0.666);
 }
 
-.profileInformation {
+.ProfileInformation {
+  border-radius: 0 0 24px 24px;
+  overflow: hidden;
   display: flex;
+  width: 100%;
   padding: 0;
-  margin: 0;
+  margin-bottom: 0;
 }
 
-.profileInformationItem {
+.ProfileInformationItem {
+  width: 100px;
   display: flex;
-  border: 1px solid rgba(40, 40, 40, 0.238);
-  padding: 5px;
   flex-direction: column;
-  width: 89px;
-  color: rgba(35, 35, 35, 0.666);
-  background-color: rgba(0, 0, 0, 0.122);
+  text-align: center;
+  row-gap: 6px;
+  color: black;
+  border: 1px solid gray;
+  padding: 6px;
+  background-color: rgb(231, 228, 228);
 }
 
 .integer {
